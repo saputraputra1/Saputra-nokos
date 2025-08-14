@@ -594,9 +594,9 @@
     const hargaNokos = {
         whatsapp: {
             id: { nama: "Indonesia", kualitas: { biasa: "Rp5.000", premium: "Rp8.000", super: "Rp10.000" } },
-            us: { nama: "Amerika Serikat", kualitas: { biasa: "Rp55.000", premium: "Rp80.000", super: "Rp100.000" } },
+            us: { nama: "Amerika Serikat", kualitas: { biasa: "Rp55.000", premium: "Rp80.000", super: "Rp100.000", jangka_panjang: "Rp150.000" } },
             jp: { nama: "Jepang", kualitas: { biasa: "Rp180.000", premium: "Rp260.000", super: "Rp360.000" } },
-            can: { nama: "Canada", kualitas: { biasa: "Rp55.000", premium: "Rp65.000", super: "Rp85.000" } },
+            can: { nama: "Canada", kualitas: { biasa: "Rp55.000", premium: "Rp65.000", super: "Rp85.000", jangka_panjang: "Rp130.000" } },
             col: { nama: "Colombia", kualitas: { biasa: "Rp50.000", premium: "Rp60.000", super: "Rp75.000" } },
             ken: { nama: "Kenya", kualitas: { biasa: "Rp35.000", premium: "Rp45.000", super: "Rp60.000" } },
             rus: { nama: "Russia", kualitas: { biasa: "Rp65.000", premium: "Rp80.000", super: "Rp105.000" } },
@@ -605,21 +605,24 @@
             bra: { nama: "Brazil", kualitas: { biasa: "Rp55.000", premium: "Rp65.000", super: "Rp75.000" } },
             thai: { nama: "Thailand", kualitas: { biasa: "Rp55.000", premium: "Rp70.000", super: "Rp95.000" } },
             hong: { nama: "Hongkong", kualitas: { biasa: "Rp60.000", premium: "Rp75.000", super: "Rp95.000" } },
-            bel: { nama: "Belanda", kualitas: { biasa: "Rp55.000", premium: "Rp75.000", super: "Rp95.000" } },
-            jer: { nama: "Jerman", kualitas: { biasa: "Rp160.000", premium: "Rp210.000", super: "Rp285.000" } },
+            bel: { nama: "Belanda", kualitas: { biasa: "Rp55.000", premium: "Rp75.000", super: "Rp95.000", jangka_panjang: "Rp140.000" } },
+            jer: { nama: "Jerman", kualitas: { biasa: "Rp160.000", premium: "Rp210.000", super: "Rp285.000", jangka_panjang: "Rp350.000" } },
             fil: { nama: "Filipina", kualitas: { biasa: "Rp25.000", premium: "Rp35.000", super: "Rp40.000" } },
             morr: { nama: "Morocco", kualitas: { biasa: "Rp55.000", premium: "Rp70.000", super: "Rp85.000" } },
             laos: { nama: "Laos", kualitas: { biasa: "Rp45.000", premium: "Rp60.000", super: "Rp80.000" } },
             cambodia: { nama: "Cambodia", kualitas: { biasa: "Rp55.000", premium: "Rp70.000", super: "Rp90.000" } },
             china: { nama: "China", kualitas: { biasa: "Rp50.000", premium: "Rp75.000", super: "Rp105.000" } },
             malaysia: { nama: "Malaysia", kualitas: { biasa: "Rp55.000", premium: "Rp70.000", super: "Rp85.000" } },
-            singapura: { nama: "Singapura", kualitas: { biasa: "Rp250.000", premium: "Rp400.000", super: "Rp750.000" } }
+            singapura: { nama: "Singapura", kualitas: { biasa: "Rp250.000", premium: "Rp400.000", super: "Rp750.000" } },
+            fra: { nama: "Prancis", kualitas: { biasa: "Rp150.000", premium: "Rp200.000", super: "Rp250.000", jangka_panjang: "Rp300.000" } },
+            pol: { nama: "Polandia", kualitas: { biasa: "Rp140.000", premium: "Rp190.000", super: "Rp240.000", jangka_panjang: "Rp290.000" } },
+            uk: { nama: "Inggris (UK)", kualitas: { biasa: "Rp160.000", premium: "Rp210.000", super: "Rp260.000", jangka_panjang: "Rp320.000" } }
         },
         telegram: {
             id: { nama: "Indonesia", kualitas: { biasa: "Rp20.000", premium: "Rp23.000", super: "Rp25.000" } },
-            us: { nama: "Amerika Serikat", kualitas: { biasa: "Rp70.000", premium: "Rp95.000", super: "Rp115.000" } },
+            us: { nama: "Amerika Serikat", kualitas: { biasa: "Rp70.000", premium: "Rp95.000", super: "Rp115.000", jangka_panjang: "Rp170.000" } },
             jp: { nama: "Jepang", kualitas: { biasa: "Rp195.000", premium: "Rp275.000", super: "Rp375.000" } },
-            can: { nama: "Canada", kualitas: { biasa: "Rp70.000", premium: "Rp80.000", super: "Rp100.000" } },
+            can: { nama: "Canada", kualitas: { biasa: "Rp70.000", premium: "Rp80.000", super: "Rp100.000", jangka_panjang: "Rp150.000" } },
             col: { nama: "Colombia", kualitas: { biasa: "Rp65.000", premium: "Rp75.000", super: "Rp90.000" } },
             ken: { nama: "Kenya", kualitas: { biasa: "Rp50.000", premium: "Rp60.000", super: "Rp75.000" } },
             rus: { nama: "Russia", kualitas: { biasa: "Rp80.000", premium: "Rp95.000", super: "Rp120.000" } },
@@ -628,15 +631,18 @@
             bra: { nama: "Brazil", kualitas: { biasa: "Rp70.000", premium: "Rp80.000", super: "Rp90.000" } },
             thai: { nama: "Thailand", kualitas: { biasa: "Rp70.000", premium: "Rp85.000", super: "Rp110.000" } },
             hong: { nama: "Hongkong", kualitas: { biasa: "Rp75.000", premium: "Rp90.000", super: "Rp110.000" } },
-            bel: { nama: "Belanda", kualitas: { biasa: "Rp70.000", premium: "Rp90.000", super: "Rp110.000" } },
-            jer: { nama: "Jerman", kualitas: { biasa: "Rp175.000", premium: "Rp225.000", super: "Rp300.000" } },
+            bel: { nama: "Belanda", kualitas: { biasa: "Rp70.000", premium: "Rp90.000", super: "Rp110.000", jangka_panjang: "Rp160.000" } },
+            jer: { nama: "Jerman", kualitas: { biasa: "Rp175.000", premium: "Rp225.000", super: "Rp300.000", jangka_panjang: "Rp380.000" } },
             fil: { nama: "Filipina", kualitas: { biasa: "Rp40.000", premium: "Rp50.000", super: "Rp55.000" } },
             morr: { nama: "Morocco", kualitas: { biasa: "Rp70.000", premium: "Rp85.000", super: "Rp100.000" } },
             laos: { nama: "Laos", kualitas: { biasa: "Rp60.000", premium: "Rp75.000", super: "Rp95.000" } },
             cambodia: { nama: "Cambodia", kualitas: { biasa: "Rp70.000", premium: "Rp85.000", super: "Rp105.000" } },
             china: { nama: "China", kualitas: { biasa: "Rp65.000", premium: "Rp90.000", super: "Rp120.000" } },
             malaysia: { nama: "Malaysia", kualitas: { biasa: "Rp70.000", premium: "Rp85.000", super: "Rp100.000" } },
-            singapura: { nama: "Singapura", kualitas: { biasa: "Rp265.000", premium: "Rp415.000", super: "Rp765.000" } }
+            singapura: { nama: "Singapura", kualitas: { biasa: "Rp265.000", premium: "Rp415.000", super: "Rp765.000" } },
+            fra: { nama: "Prancis", kualitas: { biasa: "Rp165.000", premium: "Rp215.000", super: "Rp265.000", jangka_panjang: "Rp320.000" } },
+            pol: { "nama": "Polandia", kualitas: { biasa: "Rp155.000", premium: "Rp205.000", super: "Rp255.000", jangka_panjang: "Rp310.000" } },
+            uk: { "nama": "Inggris (UK)", kualitas: { biasa: "Rp175.000", premium: "Rp225.000", super: "Rp275.000", jangka_panjang: "Rp340.000" } }
         }
     };
 
@@ -649,7 +655,8 @@
     const kualitasDescriptions = {
       biasa: "⭐ Standar, masa aktif terbatas, cocok untuk percobaan cepat.",
       premium: "⭐⭐ Lebih stabil, masa aktif lebih lama.",
-      super: "⭐⭐⭐ Kualitas terbaik, paling stabil, masa aktif paling panjang."
+      super: "⭐⭐⭐ Kualitas terbaik, paling stabil, masa aktif paling panjang.",
+      jangka_panjang: "⭐⭐⭐⭐ Kualitas tertinggi. Nomor diverifikasi secara resmi, cocok untuk penggunaan jangka panjang dan lebih aman."
     };
 
     // Call initialize when page loads
@@ -858,12 +865,19 @@
         kualitasSelect.disabled = false;
         kualitasSelect.innerHTML = '<option value="">-- Pilih Kualitas --</option>';
         
-        for (let tipe in hargaNokos[provider][negara].kualitas) {
-          let opt = document.createElement("option");
-          opt.value = tipe;
-          opt.textContent = `${tipe.charAt(0).toUpperCase() + tipe.slice(1)} - ${hargaNokos[provider][negara].kualitas[tipe]}`;
-          kualitasSelect.appendChild(opt);
-        }
+        const kualitasTersedia = hargaNokos[provider][negara].kualitas;
+        const urutanKualitas = ['jangka_panjang', 'super', 'premium', 'biasa'];
+
+        urutanKualitas.forEach(tipe => {
+          if (kualitasTersedia[tipe]) {
+            let opt = document.createElement("option");
+            opt.value = tipe;
+            let namaTipe = tipe.replace('_', ' ').replace(/\b\w/g, l => l.toUpperCase());
+            opt.textContent = `${namaTipe} - ${kualitasTersedia[tipe]}`;
+            kualitasSelect.appendChild(opt);
+          }
+        });
+
       } else if (negara) {
         kualitasSelect.innerHTML = '<option value="">Memuat harga...</option>';
       }
